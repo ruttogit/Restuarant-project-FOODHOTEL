@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodhotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-------cdn---->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    
+    <!-------fonts syles---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;0,500;0,700;1,400&family=Martel+Sans:wght@300;700;800;900&family=Outfit:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="land-page">
+        <div>
+<!-- NAVIGATION SECTION -->
+          <nav class="top-nav-bar">
+            <a class="logo" href=""><h3>FOODHOTEL</h3></a>
+            <ul class="main-nav">
+              <div class="search-page">
+                <div class="search">
+                  <input type="search" placeholder="Search items" class="search-box">
+                  <div class="search-icon"><i class="uil uil-search"></i></div>
+                </div>
+              </div>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#galary">Order</a></li>
+              <li><a href="#categories">Categories</a></li>
+              <li><a href="#about">About</a></li>
+              <i class="uil uil-shopping-cart"></i>
+              <a href=""><button>login</button></a>
+              <i class="uil uil-user"></i>
+            </ul>
+            <span class="navbar-toggle" id="js-navbar-toggle">
+              <i style="color: black; :hover{color: white;}" class="fas fa-bars"></i>
+            </span>
+          </nav>
+<!-- NAVIGATION SECTION -->
+        </div>
+<!-- HERO SIDE SECTION -->
+      <!-- <div class="all-section">
+        <div class="left-section">
+          <div class="left-content">
+            <h2>Categories</h2>
+            <p><i class="uil uil-angle-down"></i>Breakfast</p>
+            <p><i class="uil uil-angle-down"></i>Vegetables</p>
+            <p><i class="uil uil-angle-down"></i>Dinner</p>
+            <p><i class="uil uil-angle-down"></i>Fruits.</p>
+            <p><i class="uil uil-angle-down"></i>Lorem, ipsum.</p>
+            <p><i class="uil uil-angle-down"></i>Lorem, ipsum.</p>
+            <p><i class="uil uil-angle-down"></i>Lorem, ipsum.</p>
+            <p><i class="uil uil-angle-down"></i>Lorem, ipsum.</p>
+            <p><i class="uil uil-angle-down"></i>Lorem, ipsum.</p>
+
+          </div>
+        </div> -->
+
+
+<!-- HERO SECTION -->
+
+        <div id="home" class="center-section">
+          <div class="hero">
+            <div>
+                <h3>WELCOME! EXPLORE OUR MENU</h3>
+                <!-- <h4 id="landing-message">We look forward to serving you soon.</h4> -->
+                <p>Dive deeper into our menu and discover the chef's recommendations – handpicked selections that showcase the pinnacle of our culinary expertise. Each dish is a testament to the skill and creativity of our chefs. Explore the menu now to uncover your next favorite indulgence.</p>
+                <button id="order-btn" class="order-btn">Order Now</button>
+            </div>
+            <div style="margin-left: -5%; " class="landing-img"><img src="images/landing -page.png" alt=""  style="width: 40rem;  object-fit: cover; object-position: center; margin: 0 auto; overflow: hidden;"></div>
+          </div>
+
+
+<!-- GALARY SECTION -->
+          <div id="galary" class="galary-page">
+            <h2 id="header-gy">GALARY</h2>
+            <div class="galary">
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/1920-korean-instant-noodle-and-tteokbokki-in-korean-spicy-sauce-ancient-food.jpg" alt="">
+                    <h2>Spicy Food.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$30</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/640-close-up-of-a-burger.jpg" alt="">
+                    <h2>Bugger.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/Pizza 001.png" alt="">
+                    <h2>Pizza.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                  <img src="images/640-gourmet-burger-and-fries.jpg" alt="">
+                    <h2>Bugger and Fries.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$30</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                  <img src="images/640-penne-pasta-in-tomato-sauce-with-chicken-illustration-ai-generative.jpg" alt="">
+                    <h2>Pizza.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$23</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/food1.png" alt="">
+                    <h2>Bugger.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$10</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                  <img src="images/fried-comfort-food-chicken.jpg" alt="">
+                    <h2>Fried chicken.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$30</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/kaboompics_apples-still-life-28331.jpg" alt="">
+                    <h2>Apples.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$13</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/kaboompics_hand-of-a-woman-preparing-pasta-6431.jpg" alt="">
+                    <h2>Pasta.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$5</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/landing -page.png" alt="">
+                    <h2>Bugger.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$35</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/pub-food-spread.jpg" alt="">
+                    <h2>Food spread.</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$7</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+                <div class="cards">
+                  <div class="share-btns">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    <i class="uil uil-share"></i>
+                    <i class="uil uil-plus"></i>
+                  </div>
+                    <img src="images/vecteezy_pizza-on-the-table-and-real-fire-behind_10197512_977.jpg" alt="">
+                    <h2>Pizza</h2>
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+          </div>
+      
+<!-- ABOUT SECTION -->
+    <section id="about">
+      <div class="container-about">
+          <h2>About Us</h2>
+          <div class="about-content">
+            <div class="about-us-card">
+              <div class="left-about">
+                <h3>Our Story</h3>
+                <p style="font-family: Josefin Sans; color: black;">At Food hotel, we have been serving exquisite culinary creations and providing exceptional dining experiences since 2013. Our journey began with a vision to.</p>
+              </div>
+              <div class="right-about">
+                <img src="images/About Us Bg.jpeg" alt="">
+              </div>
+              
+            </div>
+            
+            <div class="about-us-card">
+              <div class="left-about">
+                <img src="images/chef1.jpg" alt="">
+              </div>
+              <div class="right-about">
+                <h3>Meet Our Team</h3>
+                <p style="font-family: Josefin Sans; color: black;">Behind every delicious dish and memorable dining experience is our talented team of culinary experts and hospitality professionals. Led by <em>Chef's Name</em>, our kitchen staff combines passion and creativity to bring innovative flavors to your table. Our dedicated servers and front-of-house team are committed to ensuring your comfort and satisfaction throughout your visit.</p>
+              </div>
+      
+            </div>
+            <!-- <div class="about-us-card">
+              <h3>Our Values</h3>
+              <p>At <strong>Restaurant Name</strong>, we believe in <em>core value 1</em>, <em>core value 2</em>, and <em>core value 3</em>. These values shape everything we do, from sourcing the freshest ingredients to providing attentive service to our guests. We are committed to <em>sustainability/ethical practices/community involvement/etc.</em> and strive to make a positive impact on both our local community and the environment.</p>
+            </div>
+            <div class="about-us-card">
+              <h3>Awards and Recognition</h3>
+              <p>Our commitment to excellence has been recognized by <em>mention any awards or accolades received</em>. We are proud to have been named <em>award/recognitions</em> and are grateful for the support of our loyal patrons and the culinary community.</p>
+            </div>
+            <div class="about-us-card">
+              <h3>Awards and Recognition</h3>
+              <p>Our commitment to excellence has been recognized by <em>mention any awards or accolades received</em>. We are proud to have been named <em>award/recognitions</em> and are grateful for the support of our loyal patrons and the culinary community.</p>
+              
+            </div>
+            <div class="about-us-card">
+              <h3>Visit Us</h3>
+              <p>Experience the passion and dedication behind every dish firsthand by dining with us at <strong>Restaurant Name</strong>. Whether you're celebrating a special occasion, enjoying a casual meal with friends, or hosting a private event, we look forward to welcoming you to our restaurant and creating unforgettable memories together.</p>
+            </div> -->
+          </div>
+      </div>
+    </section>
+
+<!-- REVIEW SECTION -->
+          <div class="review-page">
+            <div class="reviews">
+              <div class="review-card">
+                <div class="profile-div"><img src="images/person-1.jpg" alt=""></div>
+                <p><strong>Sandra Dakota</strong></p>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="description">
+                  <p>Exceptional food and service, a must-visit dining destination!</p>   
+                </div>
+              </div>
+              <div class="review-card">
+                <div class="profile-div"><img src="images/revprofile1 (1).jpg" alt=""></div>
+                <p><strong>Dennis kipkoech</strong></p>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="description">
+                  <p>Pleasant atmosphere but overpriced and slow service.</p>   
+                </div>
+              </div>
+              <div class="review-card">
+                <div class="profile-div"><img src="images/revprofile1 (3).jpg" alt=""></div>
+                <p><strong>Annika Hermione</strong></p>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officiis ipsam, saepe ab eligendi sequi.</p>   
+                </div>
+              </div>
+              
+              <div class="review-card">
+                <div class="profile-div"><img src="images/revprofile1 (4).jpg" alt=""></div>
+                <p><strong>Dennis kipkoech</strong></p>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  
+                </div>
+                <div class="description">
+                  <p>Underwhelming food and limited menu options.</p>   
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+<!-- FOOTER SECTION -->
+          <div class="footer">
+            <div class="details">
+              <div class="follow-us" class="cont">
+                <i class="uil uil-facebook-f" class="w3-large"></i>
+                <i class="uil uil-twitter-alt" class="icon"></i>
+                <i class="uil uil-instagram" class="icon"></i>
+                <i class="uil uil-whatsapp" class="icon"></i>
+                <i class="uil uil-linkedin-alt" class="icon"></i>
+                <!-- <i class="uis uis-star-half-alt"></i>
+                <i class="uis uis-star"></i> -->
+                <a href=""></a>
+              </div>
+              <div class="policy" class="cont">
+                <a>Privacy Policy</a>
+                <a>Terms & Conditions</a>
+                <a>Cookies Policy</a>
+              </div>
+              <div class="links" class="cont">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Project</a>
+                <a href="">Services</a>
+                <a href="">Contact Us</a>
+              </div>
+              <div class="help"class="cont">
+                <a href="">FAQs</a>
+                <a href="Help"></a>
+              </div>
+              <div class="copyrights" class="cont">
+                <!-- <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, asperiores voluptatibus. Architecto, optio! Obcaecati facilis vel possimus ullam, distinctio nulla tempore eligendi iste ut nostrum cupiditate eos aut magni delectus?</a> -->
+              </div>
+            </div>
+          </div>
+  <!-- END OF FOOTER SECTION -->
+        </div>
+      </div>
+      
+    </div>
+
+    <script src="https://kit.fontawesome.com/3b19cfd6e5.js" crossorigin="anonymous">
+      const navbarToggle = document.getElementById('js-navbar-toggle');
+      const menu = document.getElementById('js-menu');
+
+      navbarToggle.addEventListener('click', function () {
+        menu.classList.toggle('active');
+      });
+
+
+
+    </script>
+</body>
+</html>
