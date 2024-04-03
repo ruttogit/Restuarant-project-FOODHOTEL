@@ -310,7 +310,7 @@ button{
   .galary-page h2{
     margin: 0 auto;
     padding-bottom: 2rem;
-    color: var(--color-white);
+    color: var(--color-black);
   }
   .galary h2{
     text-align: center;
