@@ -270,7 +270,6 @@ button{
   /* END OF HERO SECTION */
 
 
-
   /* GALARY SECTION */
 
   .galary-page #header-gy{
@@ -338,6 +337,7 @@ button{
     flex-direction: column;
     justify-content: space-between;
     transition: right 0.3s ease;
+    backdrop-filter: blur(40);
   }
   .galary .cards:hover .share-btns{
       right: 0;
@@ -353,6 +353,9 @@ button{
     border-radius: 4px;
     border-width: 1px;
   }
+  /* .galary .cards .share-btns i .heart:active{
+    color: var(--colo-yellow);
+  } */
   .galary .cards .share-btns i:hover{
     background: var(--colo-yellow);
     color: var(--color-white);
@@ -393,6 +396,12 @@ button{
   .galary .cards .order-btn:hover{
     background: transparent;
     border-color: var(--color-orange);
+  }
+
+
+  .galary .cards .order-btn:active{
+    background-color: black;
+    color: var(--color-white);
   }
   /* END OF GALARY SECTION */
 
