@@ -81,7 +81,7 @@ nav{
     color: var(--color-white);
   }
   nav ul .nav-link{
-    display: flex;
+    display: none;
     list-style: none;
     align-items: center;
     text-align: center;
@@ -199,7 +199,6 @@ nav{
     background: #fff;
     } */
   .hero{
-    margin-top: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -601,8 +600,7 @@ nav{
     }
 
     .search-page .search{
-      margin-top: 11px;
-      position: relative;
+      display: none;
   
     }
 
@@ -668,6 +666,7 @@ nav{
       margin: 0;
   
     }
+
 
     .hero div p{
       text-align: center;
@@ -765,6 +764,7 @@ nav{
 
     .hero div h3{
       font-size: 24px;
+      margin-top: 100px;
     }
     .hero div p{
       /* margin: 5px 40px; */
